@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SistemaDeVendasComControleEstoque
 {
-    public partial class Form1 : Form
+    public partial class FrmAdministracao : Form
     {
-        public Form1()
+        public FrmAdministracao()
         {
             InitializeComponent();
         }
