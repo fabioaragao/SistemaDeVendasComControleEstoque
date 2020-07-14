@@ -33,6 +33,10 @@
             this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.estoqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastroDeUsuáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editarUsuárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exclusãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.abrirSistemaDeVendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.msFrmAdminSistema.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,12 +55,18 @@
             // 
             // usuárioToolStripMenuItem
             // 
+            this.usuárioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cadastroDeUsuáriosToolStripMenuItem,
+            this.editarUsuárioToolStripMenuItem,
+            this.exclusãoToolStripMenuItem});
             this.usuárioToolStripMenuItem.Name = "usuárioToolStripMenuItem";
             this.usuárioToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.usuárioToolStripMenuItem.Text = "Usuário";
             // 
             // vendasToolStripMenuItem
             // 
+            this.vendasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.abrirSistemaDeVendasToolStripMenuItem});
             this.vendasToolStripMenuItem.Name = "vendasToolStripMenuItem";
             this.vendasToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.vendasToolStripMenuItem.Text = "Vendas";
@@ -72,6 +82,30 @@
             this.sistemaToolStripMenuItem.Name = "sistemaToolStripMenuItem";
             this.sistemaToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.sistemaToolStripMenuItem.Text = "Sistema";
+            // 
+            // cadastroDeUsuáriosToolStripMenuItem
+            // 
+            this.cadastroDeUsuáriosToolStripMenuItem.Name = "cadastroDeUsuáriosToolStripMenuItem";
+            this.cadastroDeUsuáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cadastroDeUsuáriosToolStripMenuItem.Text = "Cadastro";
+            // 
+            // editarUsuárioToolStripMenuItem
+            // 
+            this.editarUsuárioToolStripMenuItem.Name = "editarUsuárioToolStripMenuItem";
+            this.editarUsuárioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editarUsuárioToolStripMenuItem.Text = "Alteração";
+            // 
+            // exclusãoToolStripMenuItem
+            // 
+            this.exclusãoToolStripMenuItem.Name = "exclusãoToolStripMenuItem";
+            this.exclusãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exclusãoToolStripMenuItem.Text = "Exclusão";
+            // 
+            // abrirSistemaDeVendasToolStripMenuItem
+            // 
+            this.abrirSistemaDeVendasToolStripMenuItem.Name = "abrirSistemaDeVendasToolStripMenuItem";
+            this.abrirSistemaDeVendasToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.abrirSistemaDeVendasToolStripMenuItem.Text = "Abrir Sistema de Vendas";
             // 
             // FrmAdministracao
             // 
@@ -96,6 +130,10 @@
         private System.Windows.Forms.ToolStripMenuItem vendasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem estoqueToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sistemaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastroDeUsuáriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editarUsuárioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exclusãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem abrirSistemaDeVendasToolStripMenuItem;
     }
 }
 
