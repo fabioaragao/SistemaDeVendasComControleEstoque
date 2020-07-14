@@ -115,7 +115,9 @@
             this.Controls.Add(this.msFrmAdminSistema);
             this.MainMenuStrip = this.msFrmAdminSistema;
             this.Name = "FrmAdministracao";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Administração do Sistema:";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.msFrmAdminSistema.ResumeLayout(false);
             this.msFrmAdminSistema.PerformLayout();
             this.ResumeLayout(false);
