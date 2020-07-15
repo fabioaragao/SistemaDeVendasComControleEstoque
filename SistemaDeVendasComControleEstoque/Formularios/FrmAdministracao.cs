@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemaDeVendasComControleEstoque.Formularios;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,15 @@ namespace SistemaDeVendasComControleEstoque
         public FrmAdministracao()
         {
             InitializeComponent();
+        }
+
+        private void cadastroDeUsuáriosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCadastroUsuario frmcadastrousuarios = new FrmCadastroUsuario();
+            {
+                frmcadastrousuarios.MdiParent = this;
+                frmcadastrousuarios.Show();
+            }
         }
     }
 }

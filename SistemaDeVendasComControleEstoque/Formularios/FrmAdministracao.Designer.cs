@@ -84,6 +84,7 @@
             this.cadastroDeUsuáriosToolStripMenuItem.Name = "cadastroDeUsuáriosToolStripMenuItem";
             this.cadastroDeUsuáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cadastroDeUsuáriosToolStripMenuItem.Text = "Cadastrar";
+            this.cadastroDeUsuáriosToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeUsuáriosToolStripMenuItem_Click);
             // 
             // editarUsuárioToolStripMenuItem
             // 
