@@ -60,8 +60,8 @@
             this.usuarioToolStripMenuItem,
             this.vendasToolStripMenuItem,
             this.estoqueToolStripMenuItem,
-            this.sistemaToolStripMenuItem,
             this.fornecedorToolStripMenuItem,
+            this.sistemaToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.msFrmAdminSistema.Location = new System.Drawing.Point(0, 0);
             this.msFrmAdminSistema.Name = "msFrmAdminSistema";
