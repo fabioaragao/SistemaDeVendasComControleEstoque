@@ -46,15 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmAdministracao.cs">
+    <Compile Include="Formularios\FrmAdministracao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAdministracao.Designer.cs">
+    <Compile Include="Formularios\FrmAdministracao.Designer.cs">
       <DependentUpon>FrmAdministracao.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmAdministracao.resx">
+    <EmbeddedResource Include="Formularios\FrmAdministracao.resx">
       <DependentUpon>FrmAdministracao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -81,7 +81,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
-    <Folder Include="Formularios\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
