@@ -154,7 +154,8 @@
             "Administrador",
             "Balcão",
             "Caixa",
-            "Estoque"});
+            "Estoque",
+            "Gerente"});
             this.cbNivelAcesso.Location = new System.Drawing.Point(204, 132);
             this.cbNivelAcesso.Name = "cbNivelAcesso";
             this.cbNivelAcesso.Size = new System.Drawing.Size(180, 21);
