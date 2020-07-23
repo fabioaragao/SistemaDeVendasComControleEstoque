@@ -52,6 +52,12 @@
     <Compile Include="Formularios\FrmAdministracao.Designer.cs">
       <DependentUpon>FrmAdministracao.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmCadastroProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmCadastroProdutos.Designer.cs">
+      <DependentUpon>FrmCadastroProdutos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FrmCadastroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,16 +70,28 @@
     <Compile Include="Formularios\FrmPesquisarUsuario.Designer.cs">
       <DependentUpon>FrmPesquisarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmVendaBalcao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmVendaBalcao.Designer.cs">
+      <DependentUpon>FrmVendaBalcao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\FrmAdministracao.resx">
       <DependentUpon>FrmAdministracao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmCadastroProdutos.resx">
+      <DependentUpon>FrmCadastroProdutos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmCadastroUsuario.resx">
       <DependentUpon>FrmCadastroUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmPesquisarUsuario.resx">
       <DependentUpon>FrmPesquisarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmVendaBalcao.resx">
+      <DependentUpon>FrmVendaBalcao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
