@@ -50,16 +50,16 @@
             this.lblCodProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCodProduto.Location = new System.Drawing.Point(12, 9);
             this.lblCodProduto.Name = "lblCodProduto";
-            this.lblCodProduto.Size = new System.Drawing.Size(89, 16);
+            this.lblCodProduto.Size = new System.Drawing.Size(82, 16);
             this.lblCodProduto.TabIndex = 0;
-            this.lblCodProduto.Text = "Cod. Produto:";
+            this.lblCodProduto.Text = "Cod. Interno:";
             // 
             // txtCodProduto
             // 
             this.txtCodProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodProduto.Location = new System.Drawing.Point(107, 6);
+            this.txtCodProduto.Location = new System.Drawing.Point(100, 6);
             this.txtCodProduto.Name = "txtCodProduto";
-            this.txtCodProduto.Size = new System.Drawing.Size(100, 22);
+            this.txtCodProduto.Size = new System.Drawing.Size(107, 22);
             this.txtCodProduto.TabIndex = 1;
             this.txtCodProduto.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -153,9 +153,9 @@
             // 
             // txtLucro
             // 
-            this.txtLucro.Location = new System.Drawing.Point(542, 65);
+            this.txtLucro.Location = new System.Drawing.Point(579, 65);
             this.txtLucro.Name = "txtLucro";
-            this.txtLucro.Size = new System.Drawing.Size(128, 20);
+            this.txtLucro.Size = new System.Drawing.Size(91, 20);
             this.txtLucro.TabIndex = 13;
             // 
             // lblLucro
@@ -164,9 +164,9 @@
             this.lblLucro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLucro.Location = new System.Drawing.Point(492, 66);
             this.lblLucro.Name = "lblLucro";
-            this.lblLucro.Size = new System.Drawing.Size(44, 16);
+            this.lblLucro.Size = new System.Drawing.Size(81, 16);
             this.lblLucro.TabIndex = 12;
-            this.lblLucro.Text = "Lucro:";
+            this.lblLucro.Text = "Lucro em %:";
             // 
             // FrmCadastroProdutos
             // 
