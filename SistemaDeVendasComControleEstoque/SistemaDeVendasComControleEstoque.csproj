@@ -52,6 +52,12 @@
     <Compile Include="Formularios\FrmAdministracao.Designer.cs">
       <DependentUpon>FrmAdministracao.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmCadastrarFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmCadastrarFornecedor.Designer.cs">
+      <DependentUpon>FrmCadastrarFornecedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FrmCadastroProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\FrmAdministracao.resx">
       <DependentUpon>FrmAdministracao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmCadastrarFornecedor.resx">
+      <DependentUpon>FrmCadastrarFornecedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmCadastroProdutos.resx">
       <DependentUpon>FrmCadastroProdutos.cs</DependentUpon>
