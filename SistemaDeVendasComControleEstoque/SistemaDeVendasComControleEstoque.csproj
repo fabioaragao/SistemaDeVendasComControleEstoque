@@ -70,6 +70,12 @@
     <Compile Include="Formularios\FrmCadastroUsuario.Designer.cs">
       <DependentUpon>FrmCadastroUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmConfiguraConexaoBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmConfiguraConexaoBanco.Designer.cs">
+      <DependentUpon>FrmConfiguraConexaoBanco.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FrmPesquisarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmCadastroUsuario.resx">
       <DependentUpon>FrmCadastroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmConfiguraConexaoBanco.resx">
+      <DependentUpon>FrmConfiguraConexaoBanco.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmPesquisarUsuario.resx">
       <DependentUpon>FrmPesquisarUsuario.cs</DependentUpon>
