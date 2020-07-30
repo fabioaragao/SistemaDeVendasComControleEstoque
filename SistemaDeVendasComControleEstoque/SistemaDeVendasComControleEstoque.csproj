@@ -82,6 +82,12 @@
     <Compile Include="Formularios\FrmPesquisarUsuario.Designer.cs">
       <DependentUpon>FrmPesquisarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmSuporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmSuporte.Designer.cs">
+      <DependentUpon>FrmSuporte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FrmVendaBalcao.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmPesquisarUsuario.resx">
       <DependentUpon>FrmPesquisarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmSuporte.resx">
+      <DependentUpon>FrmSuporte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmVendaBalcao.resx">
       <DependentUpon>FrmVendaBalcao.cs</DependentUpon>

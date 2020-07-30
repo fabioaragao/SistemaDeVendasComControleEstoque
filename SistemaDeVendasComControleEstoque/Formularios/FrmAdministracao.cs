@@ -26,5 +26,14 @@ namespace SistemaDeVendasComControleEstoque
                 frmcadastrousuarios.Show();
             }
         }
+
+        private void suporteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmSuporte suporte = new FrmSuporte();
+            {
+                suporte.MdiParent = this;
+                suporte.Show();
+            }
+        }
     }
 }

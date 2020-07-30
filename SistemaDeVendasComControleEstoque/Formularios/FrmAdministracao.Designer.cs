@@ -46,6 +46,7 @@
             this.excluirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.estoqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroDeProdutosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.compraDeProdutosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarProdutosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inativarProdutosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatórioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,7 +62,6 @@
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblBarraInferior = new System.Windows.Forms.Label();
-            this.compraDeProdutosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.msFrmAdminSistema.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -97,26 +97,26 @@
             // cadastroDeUsuáriosToolStripMenuItem
             // 
             this.cadastroDeUsuáriosToolStripMenuItem.Name = "cadastroDeUsuáriosToolStripMenuItem";
-            this.cadastroDeUsuáriosToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.cadastroDeUsuáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cadastroDeUsuáriosToolStripMenuItem.Text = "Cadastrar";
             this.cadastroDeUsuáriosToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeUsuáriosToolStripMenuItem_Click);
             // 
             // editarUsuárioToolStripMenuItem
             // 
             this.editarUsuárioToolStripMenuItem.Name = "editarUsuárioToolStripMenuItem";
-            this.editarUsuárioToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.editarUsuárioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.editarUsuárioToolStripMenuItem.Text = "Alterar";
             // 
             // exclusãoToolStripMenuItem
             // 
             this.exclusãoToolStripMenuItem.Name = "exclusãoToolStripMenuItem";
-            this.exclusãoToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.exclusãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exclusãoToolStripMenuItem.Text = "Inativar";
             // 
             // listarToolStripMenuItem
             // 
             this.listarToolStripMenuItem.Name = "listarToolStripMenuItem";
-            this.listarToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.listarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.listarToolStripMenuItem.Text = "Listar ( Relatório )";
             // 
             // balcaoToolStripMenuItem
@@ -207,6 +207,12 @@
             this.cadastroDeProdutosToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.cadastroDeProdutosToolStripMenuItem.Text = "Cadastrar Produtos";
             // 
+            // compraDeProdutosToolStripMenuItem
+            // 
+            this.compraDeProdutosToolStripMenuItem.Name = "compraDeProdutosToolStripMenuItem";
+            this.compraDeProdutosToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.compraDeProdutosToolStripMenuItem.Text = "Compra de Produtos";
+            // 
             // editarProdutosToolStripMenuItem
             // 
             this.editarProdutosToolStripMenuItem.Name = "editarProdutosToolStripMenuItem";
@@ -281,6 +287,7 @@
             this.suporteToolStripMenuItem.Name = "suporteToolStripMenuItem";
             this.suporteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.suporteToolStripMenuItem.Text = "Suporte";
+            this.suporteToolStripMenuItem.Click += new System.EventHandler(this.suporteToolStripMenuItem_Click);
             // 
             // configurarConexãoToolStripMenuItem
             // 
@@ -315,12 +322,6 @@
             this.lblBarraInferior.Size = new System.Drawing.Size(395, 20);
             this.lblBarraInferior.TabIndex = 0;
             this.lblBarraInferior.Text = "Desenvolvido por: FSolutions Soluções em Tecnologia.";
-            // 
-            // compraDeProdutosToolStripMenuItem
-            // 
-            this.compraDeProdutosToolStripMenuItem.Name = "compraDeProdutosToolStripMenuItem";
-            this.compraDeProdutosToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.compraDeProdutosToolStripMenuItem.Text = "Compra de Produtos";
             // 
             // FrmAdministracao
             // 
